@@ -7,15 +7,21 @@
   <title>web Page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
     .carousel-inner img {
       width: 100%;
       height: 94vh;
     }
-    </style>
+  </style>
 </head>
 
 <body>
   <header>
+    <!-- **** Nav Bar **** -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -54,6 +60,7 @@
       </div>
     </nav>
 
+    <!-- **** carousel images slide **** -->
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -91,6 +98,30 @@
       </a>
     </div>
   </header>
+
+
+  <!-- **** about us **** -->
+  <section>
+    <div class="container-fluid"></div>
+    <h1 class="text-center text-capitalize pt-5">about us</h1>
+    <hr class="w-25 mx-auto pt-5">
+
+    <div class="row mb-5">
+      <div class="col-lg-6 col-md-6 col-12"><img src="images/nature2.jpg" alt="nature" class="img-fluid"></div>
+      <div class="col-lg-6 col-md-6 col-12">
+        <h1>Who am i ?</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque similique esse ullam omnis eum, quia soluta
+          dicta, maxime, at molestiae labore. Molestiae obcaecati ullam cumque. Cumque consectetur incidunt quisquam
+          quae ea repellat quia obcaecati tempore ab excepturi natus, a eligendi optio impedit sapiente quas fugiat
+          itaque quos aspernatur, vitae ut ratione sint? Facilis fugiat nihil voluptatem veritatis, rem placeat aut
+          fuga? Officiis magni delectus sunt inventore id exercitationem nam numquam quam voluptatum tempora mollitia
+          non dignissimos voluptates, totam, distinctio quo aut perferendis ex culpa nostrum ea explicabo. Provident
+          consequatur suscipit tempora facilis numquam quam quisquam eius, ipsum, sequi, delectus culpa.</p>
+        <button class="btn btn-primary">wanna know me</button>
+      </div>
+    </div>
+  </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
