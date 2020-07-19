@@ -51,3 +51,11 @@
     column-rule: dashed;
     text-align: justify;
 }
+
+.img-fluid {
+    border-radius: 20px;
+}
+
+.card {
+    box-shadow: 4px 4px 5px 4px gray;
+}
