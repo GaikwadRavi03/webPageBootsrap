@@ -44,3 +44,10 @@
     width: 100px;
     height: 100px;
 }
+
+.about_para {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: dashed;
+    text-align: justify;
+}
